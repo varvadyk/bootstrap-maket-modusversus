@@ -270,7 +270,7 @@ body{
     text-align: center;
 }
 .icon{
-    padding-bottom: 17px;
+    padding-bottom: 30px;
     font-size: 60px;
     line-height: 7px;
     color: #62bdbd;
@@ -612,6 +612,9 @@ font-weight: 400;
 .modus-content{
         width: 410px;
     }
+.info-block-list{
+    margin-left: 4px;
+}
 }
 @media (max-width: 576px){
  .vestibulem-text{
@@ -682,6 +685,9 @@ font-weight: 400;
 
     margin-right: 39px;
     margin-left: 19px;
+}
+.info-block-list{
+    margin-left: 4px;
 }
 }
 
