@@ -494,12 +494,7 @@ font-weight: 400;
     color: #ffffff;
     font-weight: 800;
 }
-.company-heading{
-    font-size: 20px;
-    line-height: 24px;
-    color: #000000;
-    font-weight: 700;
-}
+
 .footer-text{
     font-size: 13px;
     line-height: 1.8;
@@ -530,33 +525,43 @@ font-weight: 400;
 }
 .company-heading{
     margin-top: 50px;
+    margin-bottom: 20px;
     display: flex;
     color: #3b6360;
     font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  
 }
 .company-list-item{
+    margin-top: 10px;
   list-style-type: none;
   color:white;
 }
 .company-list-item:before{
-    content:"\f061";
+    content:"\f054";
     color: white;
     font-family: FontAwesome;
+    padding-right: 5px;
 }
 .community-heading{
     margin-top: 50px;
+    margin-bottom: 20px;
     display: flex;
     color: #3b6360;
+    font-size: 20px;
     font-weight: 700;
 }
 .community-list-item{
+     margin-top: 10px;
     list-style-type: none;
     color:white;
 }
 .community-list-item:before{
-     content:"\f061";
+     content:"\f054";
     color: white;
     font-family: FontAwesome;
+    padding-right: 5px;
 }
 .blog-heading{
      margin-top: 50px;
